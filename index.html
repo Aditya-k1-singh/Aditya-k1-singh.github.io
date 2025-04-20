@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aditya Kr Singh - Computer Science Engineering Student Portfolio">
+    <meta name="keywords" content="portfolio, web developer, CSE student, Aditya Kr Singh, LPU">
+    <meta name="author" content="Aditya Kr Singh">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Aditya Kr Singh - Portfolio">
+    <meta property="og:description" content="Computer Science Engineering Student at Lovely Professional University">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adityakrsingh.com">
+    
+    <title>Aditya Kr Singh | Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="/">Aditya Kr Singh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qualifications">Qualifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold mb-4">Hi, I'm <span class="highlight">Aditya Kr Singh</span></h1>
+                    <h2 class="h3 mb-4">Computer Science Engineering Student</h2>
+                    <p class="lead mb-4">Passionate about technology and innovation. Currently pursuing B.Tech in CSE at Lovely Professional University.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary me-3">Get In Touch</a>
+                        <a href="#about" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                    <div class="social-icons mt-4">
+                        <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:aditya@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+1234567890" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <div class="profile-img-container">
+                        <img src="/placeholder.svg?height=400&width=400" alt="Aditya Kr Singh" class="img-fluid rounded-circle profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="var(--bs-light)" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>About Me</h2>
+                <div class="line"></div>
+                <p>Get to know me better</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="about-img">
+                        <img src="/placeholder.svg?height=500&width=400" alt="About Aditya" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-content">
+                        <h3>I'm Aditya Kr Singh, a Computer Science Engineering Student</h3>
+                        <p>I am currently in my 3rd year of B.Tech in Computer Science Engineering at Lovely Professional University. I am passionate about technology and constantly exploring new advancements in the field.</p>
+                        <p>My journey in computer science has equipped me with strong problem-solving skills and a deep understanding of various programming languages and frameworks. I enjoy tackling complex challenges and creating innovative solutions.</p>
+                        <p>Outside of academics, I am involved in various tech communities and participate in hackathons and coding competitions to enhance my skills and network with like-minded individuals.</p>
+                        <div class="row about-info mt-4">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li><strong>Name:</strong> Aditya Kr Singh</li>
+                                    <li><strong>Email:</strong> <a href="mailto:aditya@example.com">aditya@example.com</a></li>
+                                    <li><strong>Phone:</strong> <a href="tel:+1234567890">+123 456 7890</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li><strong>Degree:</strong> B.Tech in CSE (Pursuing)</li>
+                                    <li><strong>University:</strong> Lovely Professional University</li>
+                                    <li><strong>Location:</strong> Punjab, India</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-primary me-3" download>Download Resume <i class="fas fa-download ms-2"></i></a>
+                            <div class="social-icons d-inline-block">
+                                <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>My Skills</h2>
+                <div class="line"></div>
+                <p>What I bring to the table</p>
+            </div>
+            <div class="row">
+                <!-- Languages -->
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Java</h4>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Python</h4>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>JavaScript</h4>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>C/C++</h4>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>HTML/CSS</h4>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frameworks -->
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3>Frameworks</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>React.js</h4>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Node.js</h4>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Bootstrap</h4>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Django</h4>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Spring Boot</h4>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Tools</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Git & GitHub</h4>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>VS Code</h4>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Docker</h4>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>Figma</h4>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name-level">
+                                    <h4>MySQL/MongoDB</h4>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Qualifications</h2>
+                <div class="line"></div>
+                <p>My academic journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science Engineering</h3>
+                        <h4>Lovely Professional University</h4>
+                        <p class="timeline-date">2021 - Present</p>
+                        <p>Currently pursuing my Bachelor's degree with a focus on software development and data structures. Maintaining a CGPA of 8.5/10.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content right">
+                        <h3>Higher Secondary Education (12th)</h3>
+                        <h4>CBSE Board</h4>
+                        <p class="timeline-date">2019 - 2021</p>
+                        <p>Completed my higher secondary education with 92% marks in PCM (Physics, Chemistry, Mathematics) stream.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education (10th)</h3>
+                        <h4>CBSE Board</h4>
+                        <p class="timeline-date">2018 - 2019</p>
+                        <p>Completed my secondary education with 95% marks and received recognition for excellence in Mathematics and Science.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Work Experience</h2>
+                <div class="line"></div>
+                <p>My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Web Development Intern</h3>
+                        <h4>Tech Solutions Inc.</h4>
+                        <p class="timeline-date">May 2023 - July 2023</p>
+                        <p>Worked on developing responsive web applications using React.js and Node.js. Collaborated with a team of developers to implement new features and fix bugs.</p>
+                        <ul class="experience-list">
+                            <li>Developed responsive UI components using React.js</li>
+                            <li>Implemented RESTful APIs using Node.js and Express</li>
+                            <li>Participated in code reviews and team meetings</li>
+                            <li>Optimized website performance and loading times</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content right">
+                        <h3>Research Assistant</h3>
+                        <h4>University Research Lab</h4>
+                        <p class="timeline-date">Jan 2023 - April 2023</p>
+                        <p>Assisted in research projects related to machine learning and data analysis. Collected and processed data for research experiments.</p>
+                        <ul class="experience-list">
+                            <li>Implemented machine learning algorithms using Python</li>
+                            <li>Analyzed large datasets and visualized results</li>
+                            <li>Contributed to research papers and documentation</li>
+                            <li>Presented findings in weekly research meetings</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Open Source Contributor</h3>
+                        <h4>GitHub Projects</h4>
+                        <p class="timeline-date">2022 - Present</p>
+                        <p>Actively contributing to open-source projects on GitHub. Fixed bugs and implemented new features for various community projects.</p>
+                        <ul class="experience-list">
+                            <li>Contributed to popular JavaScript libraries</li>
+                            <li>Fixed documentation and improved code quality</li>
+                            <li>Participated in code reviews and discussions</li>
+                            <li>Collaborated with developers from around the world</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Certifications</h2>
+                <div class="line"></div>
+                <p>My professional certifications</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="/placeholder.svg?height=200&width=300" alt="Web Development Certificate" class="img-fluid">
+                        </div>
+                        <div class="certification-content">
+                            <h3>Full Stack Web Development</h3>
+                            <h4>Udemy</h4>
+                            <p>Comprehensive course covering front-end and back-end technologies including HTML, CSS, JavaScript, Node.js, and MongoDB.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="/placeholder.svg?height=200&width=300" alt="Python Certificate" class="img-fluid">
+                        </div>
+                        <div class="certification-content">
+                            <h3>Python for Data Science</h3>
+                            <h4>Coursera</h4>
+                            <p>Advanced course on Python programming for data analysis, visualization, and machine learning applications.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="/placeholder.svg?height=200&width=300" alt="Java Certificate" class="img-fluid">
+                        </div>
+                        <div class="certification-content">
+                            <h3>Java Programming Masterclass</h3>
+                            <h4>Oracle</h4>
+                            <p>Comprehensive Java programming course covering core concepts, object-oriented programming, and advanced Java features.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="/placeholder.svg?height=200&width=300" alt="AWS Certificate" class="img-fluid">
+                        </div>
+                        <div class="certification-content">
+                            <h3>AWS Cloud Practitioner</h3>
+                            <h4>Amazon Web Services</h4>
+                            <p>Foundational certification for understanding AWS Cloud services, architecture, security, and pricing models.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="/placeholder.svg?height=200&width=300" alt="React Certificate" class="img-fluid">
+                        </div>
+                        <div class="certification-content">
+                            <h3>React.js Development</h3>
+                            <h4>Meta</h4>
+                            <p>Specialized course on building modern user interfaces with React.js, including state management and component architecture.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="certification-card">
+                        <div class="certification-img">
+                            <img src="/placeholder.svg?height=200&width=300" alt="Machine Learning Certificate" class="img-fluid">
+                        </div>
+                        <div class="certification-content">
+                            <h3>Machine Learning Fundamentals</h3>
+                            <h4>Stanford Online</h4>
+                            <p>Introduction to machine learning algorithms, techniques, and applications with practical projects and assignments.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contact Me</h2>
+                <div class="line"></div>
+                <p>Get in touch with me</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>Feel free to reach out to me for any opportunities, collaborations, or just to say hello!</p>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:aditya@example.com">aditya@example.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+1234567890">+123 456 7890</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Location</h4>
+                                <p>Punjab, India</p>
+                            </div>
+                        </div>
+                        <div class="social-icons mt-4">
+                            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="mailto:aditya@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567890" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group mb-3">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group mb-3">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-info">
+                        <h3>Aditya Kr Singh</h3>
+                        <p>A passionate Computer Science Engineering student from Lovely Professional University.</p>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="mailto:aditya@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567890" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#qualifications">Qualifications</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#certifications">Certifications</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-contact">
+                        <h4>Contact Me</h4>
+                        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:aditya@example.com">aditya@example.com</a></p>
+                        <p><i class="fas fa-phone me-2"></i> <a href="tel:+1234567890">+123 456 7890</a></p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Punjab, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center mt-4">
+                <p>&copy; 2023 Aditya Kr Singh. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
