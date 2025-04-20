@@ -7,24 +7,54 @@ $(document).ready(() => {
   
     // Initialize theme from localStorage
     const currentTheme = localStorage.getItem("theme") || "light"
-    setTheme(currentTheme)
+    const currentColorTheme = localStorage.getItem("colorTheme") || "ocean-breeze"
+    setTheme(currentTheme, currentColorTheme)
   
     // Theme toggle functionality
     $("#theme-toggle").on("click", () => {
       const currentTheme = $("body").attr("data-theme")
       const newTheme = currentTheme === "dark" ? "light" : "dark"
-      setTheme(newTheme)
+      const currentColorTheme = $("body").attr("data-color-theme") || "ocean-breeze"
+      setTheme(newTheme, currentColorTheme)
       localStorage.setItem("theme", newTheme)
     })
   
+    // Theme selector toggle
+    $(".theme-selector-toggle").on("click", () => {
+      $(".theme-selector").toggleClass("active")
+    })
+  
+    // Close theme selector
+    $(".theme-selector-close").on("click", () => {
+      $(".theme-selector").removeClass("active")
+    })
+  
+    // Theme option selection
+    $(".theme-option").on("click", function () {
+      const colorTheme = $(this).data("theme")
+      const currentTheme = $("body").attr("data-theme") || "light"
+  
+      setTheme(currentTheme, colorTheme)
+      localStorage.setItem("colorTheme", colorTheme)
+  
+      $(".theme-option").removeClass("active")
+      $(this).addClass("active")
+    })
+  
     // Function to set theme
-    function setTheme(theme) {
+    function setTheme(theme, colorTheme) {
       $("body").attr("data-theme", theme)
+      $("body").attr("data-color-theme", colorTheme)
+  
       if (theme === "dark") {
         $("#theme-toggle i").removeClass("fa-moon").addClass("fa-sun")
       } else {
         $("#theme-toggle i").removeClass("fa-sun").addClass("fa-moon")
       }
+  
+      // Update active state in theme selector
+      $(".theme-option").removeClass("active")
+      $(`.theme-option[data-theme="${colorTheme}"]`).addClass("active")
     }
   
     // Navbar active state on scroll
