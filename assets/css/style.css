@@ -2,13 +2,14 @@
 # General Styles
 --------------------------------------------------------------*/
 :root {
-    --primary-color: #4e73df;
-    --secondary-color: #2e59d9;
-    --text-color: #333;
-    --text-color-light: #6c757d;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
-    --border-color: #dee2e6;
+    /* Default Theme - Ocean Breeze Light */
+    --primary-color: #0ea5e9;
+    --secondary-color: #38bdf8;
+    --text-color: #0f172a;
+    --text-color-light: #64748b;
+    --light-color: #f0f9ff;
+    --dark-color: #0f172a;
+    --border-color: #cbd5e1;
     --success-color: #28a745;
     --info-color: #17a2b8;
     --warning-color: #ffc107;
@@ -22,14 +23,344 @@
   
   /* Dark Theme Variables */
   [data-theme="dark"] {
-    --primary-color: #6e8fff;
-    --secondary-color: #4e73df;
-    --text-color: #f8f9fa;
-    --text-color-light: #adb5bd;
-    --light-color: #343a40;
-    --dark-color: #212529;
-    --border-color: #495057;
+    --primary-color: #38bdf8;
+    --secondary-color: #0ea5e9;
+    --text-color: #f0f9ff;
+    --text-color-light: #94a3b8;
+    --light-color: #0f172a;
+    --dark-color: #020617;
+    --border-color: #334155;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Blush Rose Light */
+  [data-color-theme="blush-rose"][data-theme="light"] {
+    --primary-color: #ec4899;
+    --secondary-color: #f472b6;
+    --text-color: #1f2937;
+    --text-color-light: #6b7280;
+    --light-color: #fff1f2;
+    --dark-color: #1f2937;
+    --border-color: #f9a8d4;
+  }
+  
+  /* Blush Rose Dark */
+  [data-color-theme="blush-rose"][data-theme="dark"] {
+    --primary-color: #f472b6;
+    --secondary-color: #ec4899;
+    --text-color: #fff1f2;
+    --text-color-light: #fbcfe8;
+    --light-color: #1f2937;
+    --dark-color: #111827;
+    --border-color: #be185d;
+  }
+  
+  /* Forest Mist Light */
+  [data-color-theme="forest-mist"][data-theme="light"] {
+    --primary-color: #10b981;
+    --secondary-color: #34d399;
+    --text-color: #111827;
+    --text-color-light: #6b7280;
+    --light-color: #f3f4f6;
+    --dark-color: #111827;
+    --border-color: #a7f3d0;
+  }
+  
+  /* Forest Mist Dark */
+  [data-color-theme="forest-mist"][data-theme="dark"] {
+    --primary-color: #34d399;
+    --secondary-color: #10b981;
+    --text-color: #f3f4f6;
+    --text-color-light: #d1d5db;
+    --light-color: #111827;
+    --dark-color: #030712;
+    --border-color: #065f46;
+  }
+  
+  /* Mocha Latte Light */
+  [data-color-theme="mocha-latte"][data-theme="light"] {
+    --primary-color: #a16207;
+    --secondary-color: #d97706;
+    --text-color: #3f3f46;
+    --text-color-light: #71717a;
+    --light-color: #faf4eb;
+    --dark-color: #1c1917;
+    --border-color: #fde68a;
+  }
+  
+  /* Mocha Latte Dark */
+  [data-color-theme="mocha-latte"][data-theme="dark"] {
+    --primary-color: #d97706;
+    --secondary-color: #a16207;
+    --text-color: #faf4eb;
+    --text-color-light: #fef3c7;
+    --light-color: #1c1917;
+    --dark-color: #0c0a09;
+    --border-color: #78350f;
+  }
+  
+  /* Cyber Night Light */
+  [data-color-theme="cyber-night"][data-theme="light"] {
+    --primary-color: #4f46e5;
+    --secondary-color: #6366f1;
+    --text-color: #0f172a;
+    --text-color-light: #475569;
+    --light-color: #f8fafc;
+    --dark-color: #0f172a;
+    --border-color: #c7d2fe;
+  }
+  
+  /* Cyber Night Dark */
+  [data-color-theme="cyber-night"][data-theme="dark"] {
+    --primary-color: #6366f1;
+    --secondary-color: #4f46e5;
+    --text-color: #f8fafc;
+    --text-color-light: #e0e7ff;
+    --light-color: #0f172a;
+    --dark-color: #020617;
+    --border-color: #3730a3;
+  }
+  
+  /* Sunset Pop Light */
+  [data-color-theme="sunset-pop"][data-theme="light"] {
+    --primary-color: #fb923c;
+    --secondary-color: #f97316;
+    --text-color: #1c1917;
+    --text-color-light: #57534e;
+    --light-color: #fff7ed;
+    --dark-color: #1c1917;
+    --border-color: #ffedd5;
+  }
+  
+  /* Sunset Pop Dark */
+  [data-color-theme="sunset-pop"][data-theme="dark"] {
+    --primary-color: #f97316;
+    --secondary-color: #fb923c;
+    --text-color: #fff7ed;
+    --text-color-light: #fed7aa;
+    --light-color: #1c1917;
+    --dark-color: #0c0a09;
+    --border-color: #9a3412;
+  }
+  
+  /* Frozen Aurora Light */
+  [data-color-theme="frozen-aurora"][data-theme="light"] {
+    --primary-color: #06b6d4;
+    --secondary-color: #22d3ee;
+    --text-color: #0f172a;
+    --text-color-light: #475569;
+    --light-color: #ecfeff;
+    --dark-color: #0f172a;
+    --border-color: #a5f3fc;
+  }
+  
+  /* Frozen Aurora Dark */
+  [data-color-theme="frozen-aurora"][data-theme="dark"] {
+    --primary-color: #22d3ee;
+    --secondary-color: #06b6d4;
+    --text-color: #ecfeff;
+    --text-color-light: #cffafe;
+    --light-color: #0f172a;
+    --dark-color: #020617;
+    --border-color: #0e7490;
+  }
+  
+  /* Minimal Mono Light */
+  [data-color-theme="minimal-mono"][data-theme="light"] {
+    --primary-color: #111827;
+    --secondary-color: #6b7280;
+    --text-color: #111827;
+    --text-color-light: #4b5563;
+    --light-color: #ffffff;
+    --dark-color: #111827;
+    --border-color: #e5e7eb;
+  }
+  
+  /* Minimal Mono Dark */
+  [data-color-theme="minimal-mono"][data-theme="dark"] {
+    --primary-color: #ffffff;
+    --secondary-color: #9ca3af;
+    --text-color: #e5e7eb;
+    --text-color-light: #d1d5db;
+    --light-color: #111827;
+    --dark-color: #030712;
+    --border-color: #374151;
+  }
+  
+  /* Lime Zest Light */
+  [data-color-theme="lime-zest"][data-theme="light"] {
+    --primary-color: #84cc16;
+    --secondary-color: #a3e635;
+    --text-color: #1e293b;
+    --text-color-light: #475569;
+    --light-color: #f7fee7;
+    --dark-color: #1e293b;
+    --border-color: #d9f99d;
+  }
+  
+  /* Lime Zest Dark */
+  [data-color-theme="lime-zest"][data-theme="dark"] {
+    --primary-color: #a3e635;
+    --secondary-color: #84cc16;
+    --text-color: #f7fee7;
+    --text-color-light: #ecfccb;
+    --light-color: #1e293b;
+    --dark-color: #0f172a;
+    --border-color: #4d7c0f;
+  }
+  
+  /* Retro Pop Light */
+  [data-color-theme="retro-pop"][data-theme="light"] {
+    --primary-color: #f59e0b;
+    --secondary-color: #ef4444;
+    --text-color: #1e293b;
+    --text-color-light: #475569;
+    --light-color: #fffbeb;
+    --dark-color: #1e293b;
+    --border-color: #fef3c7;
+  }
+  
+  /* Retro Pop Dark */
+  [data-color-theme="retro-pop"][data-theme="dark"] {
+    --primary-color: #ef4444;
+    --secondary-color: #f59e0b;
+    --text-color: #fffbeb;
+    --text-color-light: #fef3c7;
+    --light-color: #1e293b;
+    --dark-color: #0f172a;
+    --border-color: #b91c1c;
+  }
+  
+  /* Purple Light */
+  [data-color-theme="purple"][data-theme="light"] {
+    --primary-color: #8b5cf6;
+    --secondary-color: #a78bfa;
+    --text-color: #1e1b4b;
+    --text-color-light: #4c1d95;
+    --light-color: #f5f3ff;
+    --dark-color: #1e1b4b;
+    --border-color: #ddd6fe;
+  }
+  
+  /* Purple Dark */
+  [data-color-theme="purple"][data-theme="dark"] {
+    --primary-color: #a78bfa;
+    --secondary-color: #8b5cf6;
+    --text-color: #f5f3ff;
+    --text-color-light: #ddd6fe;
+    --light-color: #1e1b4b;
+    --dark-color: #0f0d37;
+    --border-color: #6d28d9;
+  }
+  
+  /* Saffron Light */
+  [data-color-theme="saffron"][data-theme="light"] {
+    --primary-color: #ea580c;
+    --secondary-color: #f97316;
+    --text-color: #431407;
+    --text-color-light: #7c2d12;
+    --light-color: #fff7ed;
+    --dark-color: #431407;
+    --border-color: #ffedd5;
+  }
+  
+  /* Saffron Dark */
+  [data-color-theme="saffron"][data-theme="dark"] {
+    --primary-color: #f97316;
+    --secondary-color: #ea580c;
+    --text-color: #fff7ed;
+    --text-color-light: #ffedd5;
+    --light-color: #431407;
+    --dark-color: #270b04;
+    --border-color: #c2410c;
+  }
+  
+  /* Green Light */
+  [data-color-theme="green"][data-theme="light"] {
+    --primary-color: #16a34a;
+    --secondary-color: #22c55e;
+    --text-color: #14532d;
+    --text-color-light: #166534;
+    --light-color: #f0fdf4;
+    --dark-color: #14532d;
+    --border-color: #dcfce7;
+  }
+  
+  /* Green Dark */
+  [data-color-theme="green"][data-theme="dark"] {
+    --primary-color: #22c55e;
+    --secondary-color: #16a34a;
+    --text-color: #f0fdf4;
+    --text-color-light: #dcfce7;
+    --light-color: #14532d;
+    --dark-color: #052e16;
+    --border-color: #15803d;
+  }
+  
+  /* Red Light */
+  [data-color-theme="red"][data-theme="light"] {
+    --primary-color: #dc2626;
+    --secondary-color: #ef4444;
+    --text-color: #7f1d1d;
+    --text-color-light: #991b1b;
+    --light-color: #fef2f2;
+    --dark-color: #7f1d1d;
+    --border-color: #fee2e2;
+  }
+  
+  /* Red Dark */
+  [data-color-theme="red"][data-theme="dark"] {
+    --primary-color: #ef4444;
+    --secondary-color: #dc2626;
+    --text-color: #fef2f2;
+    --text-color-light: #fee2e2;
+    --light-color: #7f1d1d;
+    --dark-color: #450a0a;
+    --border-color: #b91c1c;
+  }
+  
+  /* Royal Blue Light */
+  [data-color-theme="royal-blue"][data-theme="light"] {
+    --primary-color: #1d4ed8;
+    --secondary-color: #2563eb;
+    --text-color: #1e3a8a;
+    --text-color-light: #1e40af;
+    --light-color: #eff6ff;
+    --dark-color: #1e3a8a;
+    --border-color: #dbeafe;
+  }
+  
+  /* Royal Blue Dark */
+  [data-color-theme="royal-blue"][data-theme="dark"] {
+    --primary-color: #2563eb;
+    --secondary-color: #1d4ed8;
+    --text-color: #eff6ff;
+    --text-color-light: #dbeafe;
+    --light-color: #1e3a8a;
+    --dark-color: #172554;
+    --border-color: #1e40af;
+  }
+  
+  /* Orange Black Light */
+  [data-color-theme="orange-black"][data-theme="light"] {
+    --primary-color: #f97316;
+    --secondary-color: #fb923c;
+    --text-color: #0c0a09;
+    --text-color-light: #292524;
+    --light-color: #ffedd5;
+    --dark-color: #0c0a09;
+    --border-color: #fed7aa;
+  }
+  
+  /* Orange Black Dark */
+  [data-color-theme="orange-black"][data-theme="dark"] {
+    --primary-color: #fb923c;
+    --secondary-color: #f97316;
+    --text-color: #ffedd5;
+    --text-color-light: #fed7aa;
+    --light-color: #0c0a09;
+    --dark-color: #000000;
+    --border-color: #ea580c;
   }
   
   /* Import Google Fonts */
@@ -865,6 +1196,241 @@
   
     .section-title h2 {
       font-size: 22px;
+    }
+  }
+  
+  /* Add theme selector styles */
+  .theme-selector {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 1000;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    transform: translateX(calc(100% + 20px));
+    transition: transform 0.3s ease;
+  }
+  
+  .theme-selector.active {
+    transform: translateX(0);
+  }
+  
+  .theme-selector-toggle {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1001;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .theme-selector-toggle:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .theme-selector-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+  }
+  
+  .theme-selector-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .theme-selector-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--text-color);
+  }
+  
+  .theme-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .theme-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+  }
+  
+  .theme-option:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .theme-option.active {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-preview {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--border-color);
+  }
+  
+  .theme-preview-half {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .theme-preview-light {
+    left: 0;
+    top: 0;
+    width: 50%;
+  }
+  
+  .theme-preview-dark {
+    right: 0;
+    top: 0;
+    width: 50%;
+  }
+  
+  .theme-name {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--text-color);
+  }
+  
+  /* Add page header styles */
+  .page-header {
+    background-color: var(--light-color);
+    padding: 120px 0 60px;
+    text-align: center;
+  }
+  
+  .page-header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .breadcrumb {
+    display: inline-flex;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumb-item {
+    font-size: 16px;
+  }
+  
+  .breadcrumb-item a {
+    color: var(--primary-color);
+  }
+  
+  .breadcrumb-item.active {
+    color: var(--text-color-light);
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    color: var(--text-color-light);
+  }
+  
+  /* Additional skill styles */
+  .additional-skill {
+    background-color: white;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    height: 100%;
+    transition: var(--transition);
+    text-align: center;
+  }
+  
+  [data-theme="dark"] .additional-skill {
+    background-color: var(--dark-color);
+  }
+  
+  .additional-skill:hover {
+    transform: translateY(-5px);
+  }
+  
+  .additional-skill .icon {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin: 0 auto 20px;
+  }
+  
+  .additional-skill h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .additional-skill p {
+    color: var(--text-color-light);
+    margin-bottom: 0;
+  }
+  
+  /* Timeline box styles */
+  .timeline-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    height: 100%;
+  }
+  
+  [data-theme="dark"] .timeline-box {
+    background-color: var(--dark-color);
+  }
+  
+  /* Make theme toggle always visible in navbar */
+  .theme-toggle-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  @media (max-width: 991px) {
+    .theme-toggle-wrapper {
+      position: absolute;
+      right: 60px;
+      top: 15px;
     }
   }
   
